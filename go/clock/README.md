@@ -1,8 +1,12 @@
-# Gigasecond
+# Clock
 
-Write a program that calculates the moment when someone has lived for 10^9 seconds.
+Implement a clock that handles times without dates.
 
-A gigasecond is 10^9 (1,000,000,000) seconds.
+Create a clock that is independent of date.
+
+You should be able to add and subtract minutes to it.
+
+Two clocks that represent the same time should be equal to each other.
 
 To run the tests simply run the command `go test` in the exercise directory.
 
@@ -16,7 +20,7 @@ page](http://exercism.io/languages/go).
 
 ## Source
 
-Chapter 9 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=09](http://pine.fm/LearnToProgram/?Chapter=09)
+Pairing session with Erin Drummond [https://twitter.com/ebdrummond](https://twitter.com/ebdrummond)
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
