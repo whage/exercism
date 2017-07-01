@@ -15,7 +15,7 @@ public class GigasecondTest {
 
         assertEquals(LocalDateTime.of(2043, Month.JANUARY, 1, 1, 46, 40), gigaSecond.getDate());
     }
-    
+
     @Test
     public void afterEpochTime() {
         Gigasecond gigaSecond = new Gigasecond(LocalDate.of(1977, Month.JUNE, 13));
